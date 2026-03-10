@@ -31,8 +31,8 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
         >
-          <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Arquitectura que Respira: L&apos;Elit de la Bioconstrucció a <span className="text-secondary italic">Tremp</span>
+          <h1 className="font-serif text-5xl md:text-8xl font-bold mb-6 leading-tight">
+            Bioconstrucció de Luxe a <span className="text-secondary italic">Tremp</span>
           </h1>
           <motion.p 
             initial={{ opacity: 0 }}
