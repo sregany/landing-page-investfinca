@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { TreeDeciduous, Wind, Droplets, Sun } from "lucide-react";
 
 const stats = [
-  { label: "Reducción CO2", value: "70%", icon: Wind },
-  { label: "Ahorro Energía", value: "40%", icon: Sun },
-  { label: "Ciclo del Agua", value: "100%", icon: Droplets },
-  { label: "Áreas Verdes", value: "1.200m²", icon: TreeDeciduous },
+  { label: "Reducció CO2", value: "70%", icon: Wind },
+  { label: "Estalvi Energia", value: "40%", icon: Sun },
+  { label: "Cicle de l'Aigua", value: "100%", icon: Droplets },
+  { label: "Àrees Verdes", value: "1.200m²", icon: TreeDeciduous },
 ];
 
 const SustainabilitySection = () => {
@@ -23,10 +23,10 @@ const SustainabilitySection = () => {
             viewport={{ once: true }}
             className="font-serif text-4xl md:text-5xl font-bold mb-6"
           >
-            Líderes en <span className="text-secondary italic">Bioconstrucción</span>
+            Líders en <span className="text-secondary italic">Bioconstrucció</span>
           </motion.h2>
           <p className="max-w-2xl mx-auto text-white/80 text-lg">
-            En INVEST-FINCA, la bioconstrucción no es una opción, es nuestro ADN. Utilizamos materiales que retornan a la tierra, garantizando un aire puro y un entorno saludable para tu familia.
+            A INVEST-FINCA, la bioconstrucció no és una opció, és el nostre ADN. Utilitzem materials que retornen a la terra, garantint un aire pur i un entorn saludable per a la teva família.
           </p>
         </div>
 

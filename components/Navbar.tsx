@@ -20,12 +20,12 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Inicio", href: "#hero" },
-    { name: "Edificio", href: "#edificio" },
+    { name: "Inici", href: "#hero" },
+    { name: "Edifici", href: "#edificio" },
     { name: "Pisos", href: "#pisos" },
-    { name: "Sostenibilidad", href: "#sostenibilidad" },
-    { name: "Amenities", href: "#amenities" },
-    { name: "Contacto", href: "#contacto" },
+    { name: "Sostenibilitat", href: "#sostenibilidad" },
+    { name: "Serveis", href: "#amenities" },
+    { name: "Contacte", href: "#contacto" },
   ];
 
   return (

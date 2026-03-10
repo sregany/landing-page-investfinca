@@ -2,27 +2,26 @@
 
 import { motion } from "framer-motion";
 import { ShieldCheck, Zap, Leaf, Award } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
 
 const features = [
   {
-    title: "Materiales Biodegradables",
-    description: "Construcción con madera certificada y polímeros naturales que respetan el ciclo de vida del planeta.",
+    title: "Materials Biodegradables",
+    description: "Construcció amb fusta certificada i polímers naturals que respecten el cicle de vida del planeta.",
     icon: Leaf,
   },
   {
-    title: "Eficiencia A+++",
-    description: "Sistema de autosuficiencia energética con paneles fotovoltaicos y aerotermia de última generación.",
+    title: "Eficiència A+++",
+    description: "Sistema d'autosuficiència energètica amb panells fotovoltaics i aerotermia d'última generació.",
     icon: Zap,
   },
   {
-    title: "Certificación LEED Gold",
-    description: "Reconocimiento internacional por los más altos estándares de sostenibilidad y diseño.",
+    title: "Certificació LEED Gold",
+    description: "Reconeixement internacional pels estàndards més alts de sostenibilitat i disseny.",
     icon: Award,
   },
   {
-    title: "Seguridad Inteligente",
-    description: "Sistemas de domótica avanzada y vigilancia 24/7 integrados de forma invisible.",
+    title: "Seguretat Intel·ligent",
+    description: "Sistemes de domòtica avançada i vigilància 24/7 integrats de forma invisible.",
     icon: ShieldCheck,
   },
 ];
@@ -39,7 +38,7 @@ const BuildingSection = () => {
             transition={{ duration: 1, ease: "circOut" }}
           >
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
-              Transformando el Pasado <br /> <span className="text-primary italic">con Bioconstrucción</span>
+            Transformant el Passat <br /> <span className="text-primary italic">amb Bioconstrucció</span>
             </h2>
             <motion.p 
               initial={{ opacity: 0 }}
@@ -48,7 +47,7 @@ const BuildingSection = () => {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-neutral-dark/70 text-lg mb-8 leading-relaxed"
             >
-              Ubicado en el emblemático Carrer Tarragona 19, estamos remodelando una estructura histórica en el centro de Tremp. Convertimos un edificio antiguo en una joya de 3 plantas, utilizando madera, cal y materiales naturales que garantizan un hogar sano y un diseño atemporal.
+              Ubicat a l&apos;emblemàtic Carrer Tarragona 19, estem remodelant una estructura històrica al centre de Tremp. Convertim un edifici antic en una joia de 3 plantes, utilitzant fusta, calç i materials naturals que garanteixen una llar sana i un d&apos;isseny atemporal.
             </motion.p>
             <div className="grid grid-cols-2 gap-6">
               {features.map((feature, index) => (

@@ -32,7 +32,7 @@ const Hero = () => {
           transition={{ delay: 0.5, duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
         >
           <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Remodelación de Élite en <span className="text-secondary italic">Tremp</span>
+            Remodelació d&apos;Elit a <span className="text-secondary italic">Tremp</span>
           </h1>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -40,7 +40,7 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 1 }}
             className="text-lg md:text-xl mb-10 max-w-2xl mx-auto text-arena/90 font-light"
           >
-            En INVEST-FINCA transformamos lo antiguo en vanguardia. Un exclusivo proyecto de 3 plantas en el corazón de Tremp, donde la bioconstrucción se une al lujo más exigente.
+            A INVEST-FINCA transformem l&apos;antic en avantguarda. Un exclusiu projecte de 3 plantes al cor de Tremp, on la bioconstrucció s&apos;uneix al luxe més exigent.
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -53,7 +53,7 @@ const Hero = () => {
                className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-7 rounded-full transition-all hover:scale-105"
                onClick={() => document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Reserva tu visita
+              Reserva la teva visita
             </Button>
             <Button 
                size="lg" 
@@ -61,7 +61,7 @@ const Hero = () => {
                className="border-white text-white hover:bg-white/10 text-lg px-8 py-7 rounded-full backdrop-blur-sm"
                onClick={() => document.getElementById('edificio')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Explorar el proyecto
+              Explorar el projecte
             </Button>
           </motion.div>
         </motion.div>

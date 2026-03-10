@@ -9,12 +9,12 @@ import Image from "next/image";
 
 const apartments = [
   {
-    title: "Planta Baja: Garden Loft",
+    title: "Planta Baixa: Garden Loft",
     beds: 1,
     size: "65m²",
     price: "295.000€",
     image: "/images/lifestyle-residentes.jpg",
-    tag: "Bioconstrucción",
+    tag: "Bioconstrucció",
   },
   {
     title: "Planta 1: Luxury Suite",
@@ -22,15 +22,15 @@ const apartments = [
     size: "95m²",
     price: "450.000€",
     image: "/images/interior-salon-moderno.jpg",
-    tag: "Remodelación",
+    tag: "Remodelació",
   },
   {
-    title: "Planta 2: Duplex Ático",
+    title: "Planta 2: Dúplex Àtic",
     beds: 3,
     size: "155m²",
     price: "820.000€",
     image: "/images/dormitorio-principal.jpg",
-    tag: "Exclusivo",
+    tag: "Exclusiu",
   },
 ];
 
@@ -65,10 +65,10 @@ export default function ApartmentsSection() {
           className="text-center mb-16"
         >
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
-            Distribución de <span className="text-primary italic">3 Plantas</span>
+            Distribució de <span className="text-primary italic">3 Plantes</span>
           </h2>
           <p className="max-w-2xl mx-auto text-neutral-dark/70 text-lg">
-            Cada nivel ha sido diseñado para maximizar la luz natural y el bienestar, integrando materiales biodegradables en una remodelación de lujo sin precedentes en Tremp.
+            Cada nivell ha estat dissenyat per maximitzar la llum natural i el benestar, integrant materials biodegradables en una remodelació de luxe sense precedents a Tremp.
           </p>
         </motion.div>
 
@@ -112,7 +112,7 @@ export default function ApartmentsSection() {
                 </CardContent>
                 <CardFooter className="px-8 pb-8 pt-0 flex justify-between items-center">
                   <div className="flex flex-col">
-                    <span className="text-xs uppercase tracking-widest text-neutral-dark/40 font-bold">Inversión desde</span>
+                    <span className="text-xs uppercase tracking-widest text-neutral-dark/40 font-bold">Inversió des de</span>
                     <span className="text-2xl font-bold text-primary">{apt.price}</span>
                   </div>
                   <Button size="icon" variant="ghost" className="rounded-full bg-primary/5 hover:bg-primary hover:text-white transition-all">
@@ -131,7 +131,7 @@ export default function ApartmentsSection() {
            className="text-center"
         >
            <Button variant="outline" className="rounded-full border-primary text-primary hover:bg-primary/5 px-8 py-6">
-              Descargar Catálogo de Materiales
+              Descarregar Catàleg de Materials
            </Button>
         </motion.div>
       </div>

@@ -26,11 +26,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col items-center md:items-start gap-4">
              <span className="font-serif text-2xl font-bold">INVEST<span className="text-primary">-</span>FINCA</span>
-             <p className="text-white/40 text-sm">© 2026 INVEST-FINCA. Líderes en Bioconstrucción.</p>
+             <p className="text-white/40 text-sm">© 2026 INVEST-FINCA. Líders en Bioconstrucció.</p>
           </div>
           <div className="flex gap-8 text-sm text-white/60">
-             <a href="#" className="hover:text-primary transition-colors">Aviso Legal</a>
-             <a href="#" className="hover:text-primary transition-colors">Privacidad</a>
+             <a href="#" className="hover:text-primary transition-colors">Avís Legal</a>
+             <a href="#" className="hover:text-primary transition-colors">Privacitat</a>
              <a href="#" className="hover:text-primary transition-colors">Cookies</a>
           </div>
         </div>

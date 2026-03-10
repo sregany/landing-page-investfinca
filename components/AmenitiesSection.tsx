@@ -8,27 +8,27 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 
 const amenities = [
   {
     title: "Eco Rooftop",
-    description: "Jardín urbano con vistas 360º de la ciudad y zonas de relax.",
+    description: "Jardí urbà amb vistes 360º de la ciutat i zones de relax.",
     image: "/images/zonas-comunes.jpg",
   },
   {
     title: "Green Gym",
-    description: "Gimnasio equipado con máquinas que generan energía limpia.",
+    description: "Gimnàs equipat amb màquines que generen energia neta.",
     image: "/images/lifestyle-residentes.jpg",
   },
   {
     title: "Smart Coworking",
-    description: "Espacios de trabajo colaborativo bañados en luz natural.",
+    description: "Espais de treball col·laboratiu banyats en llum natural.",
     image: "/images/interior-salon-moderno.jpg",
   },
   {
-    title: "Parking EV",
-    description: "Plazas de parking con carga ultra-rápida para vehículos eléctricos.",
+    title: "Pàrquing VE",
+    description: "Places de pàrquing amb càrrega ultra-ràpida per a vehicles elèctrics.",
     image: "/images/materiales-eco.jpg",
   },
 ];
@@ -44,10 +44,10 @@ const AmenitiesSection = () => {
             viewport={{ once: true }}
             className="font-serif text-4xl md:text-5xl font-bold text-neutral-dark mb-6"
           >
-            Servicios <span className="text-primary italic">Exclusivos</span>
+            Serveis <span className="text-primary italic">Exclusius</span>
           </motion.h2>
           <p className="max-w-2xl mx-auto text-neutral-dark/70 text-lg">
-            Elevando el concepto de zonas comunes hacia la funcionalidad y la sostenibilidad.
+            Elevant el concepte de zones comunes cap a la funcionalitat i la sostenibilitat.
           </p>
         </div>
 

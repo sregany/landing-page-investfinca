@@ -15,10 +15,10 @@ const LocationSection = () => {
           >
             <div className="mb-16">
               <h2 className="font-serif text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
-                El Corazón de <span className="text-primary italic">Tremp</span>
+                El Cor de <span className="text-primary italic">Tremp</span>
               </h2>
               <p className="text-neutral-dark/70 text-lg max-w-2xl">
-                Situado en Carrer Tarragona 19, nuestro proyecto se integra en la vida del pueblo, aportando lujo y sostenibilidad a una ubicación privilegiada.
+                Situat al Carrer Tarragona 19, el nostre projecte s&apos;integra en la vida del poble, aportant luxe i sostenibilitat a una ubicació privilegiada.
               </p>
             </div>
             <div className="space-y-8">
@@ -34,7 +34,7 @@ const LocationSection = () => {
               <div className="grid grid-cols-2 gap-6">
                   <div className="flex items-center gap-3">
                      <MapPin className="w-5 h-5 text-primary/60" />
-                     <span className="text-sm font-medium">Centro Histórico</span>
+                     <span className="text-sm font-medium">Centre Històric</span>
                   </div>
                  <div className="flex items-center gap-3">
                     <ShoppingBag className="w-5 h-5 text-primary/60" />
@@ -42,11 +42,11 @@ const LocationSection = () => {
                  </div>
                  <div className="flex items-center gap-3">
                     <School className="w-5 h-5 text-primary/60" />
-                    <span className="text-sm font-medium">Eco-Colegios</span>
+                    <span className="text-sm font-medium">Eco-Escoles</span>
                  </div>
                  <div className="flex items-center gap-3">
                     <MapPin className="w-5 h-5 text-primary/60" />
-                    <span className="text-sm font-medium">Parque Central</span>
+                    <span className="text-sm font-medium">Parc Central</span>
                  </div>
               </div>
             </div>
