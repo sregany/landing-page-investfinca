@@ -7,23 +7,23 @@ import { Card, CardContent } from "@/components/ui/card";
 const testimonials = [
   {
     name: "Elena Martínez",
-    role: "Propia en el 3ºB",
-    quote: "Vivir aquí ha cambiado mi percepción del lujo. La paz que se siente al saber que tu hogar respeta el entorno no tiene precio.",
+    role: "Propietària a la 3a Planta",
+    quote: "Viure aquí ha redefinit el meu concepte de luxe. La pau de saber que la teva llar respecta el cicle natural és inigualable.",
   },
   {
     name: "Carlos Ruiz",
-    role: "Arquitecto & Residente",
-    quote: "La atención al detalle en los acabados biodegradables es impecable. Un estándar que la industria debería seguir.",
+    role: "Arquitecte i Resident",
+    quote: "L&apos;atenció al detall en els acabats biodegradables és excepcional. Un referent per al futur de l&apos;edificació sostenible.",
   },
   {
     name: "Sofía & Marc",
-    role: "Digital Nomads",
-    quote: "El coworking y la luz natural en todo el piso lo convierten en el lugar perfecto para trabajar y desconectar.",
+    role: "Nòmades Digitals",
+    quote: "L&apos;espai de coworking i la calidesa de la llum natural fan d&apos;aquest habitatge el lloc ideal per a la vida moderna.",
   },
   {
     name: "Javier López",
-    role: "Inversor Sostenible",
-    quote: "Una inversión segura en el futuro. Rentabilidad unida a una responsabilidad ambiental real.",
+    role: "Inversor Conscient",
+    quote: "Inversió i responsabilitat ambiental en perfecta sincronia. Un actiu segur compromès amb el benestar futur.",
   },
 ];
 
@@ -38,11 +38,11 @@ const TestimonialsSection = () => {
             viewport={{ once: true }}
             className="font-serif text-4xl md:text-5xl font-bold mb-4"
           >
-            Voces de nuestra <span className="text-secondary italic">Comunidad</span>
+            L&apos;Experiència de la nostra <span className="text-secondary italic">Comunitat</span>
           </motion.h2>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {testimonials.map((t, index) => (
             <motion.div
               key={index}

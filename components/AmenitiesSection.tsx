@@ -44,10 +44,10 @@ const AmenitiesSection = () => {
             viewport={{ once: true }}
             className="font-serif text-4xl md:text-5xl font-bold text-neutral-dark mb-6"
           >
-            Serveis <span className="text-primary italic">Exclusius</span>
+            Experiències i Serveis <span className="text-primary italic">d&apos;Elit</span>
           </motion.h2>
           <p className="max-w-2xl mx-auto text-neutral-dark/70 text-lg">
-            Elevant el concepte de zones comunes cap a la funcionalitat i la sostenibilitat.
+            Redefinim l&apos;espai compartit sota els principis de la funcionalitat conscient i el luxe sostenible.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const AmenitiesSection = () => {
         >
           <CarouselContent className="-ml-4">
             {amenities.map((item, index) => (
-              <CarouselItem key={index} className="pl-4 md:basis-1/3 lg:basis-1/4">
+              <CarouselItem key={index} className="pl-4 sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                 <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}

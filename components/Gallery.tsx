@@ -15,7 +15,7 @@ const Gallery = () => {
   return (
     <section id="galeria" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
           {images.map((img, index) => (
             <motion.div
               key={index}
@@ -27,11 +27,11 @@ const Gallery = () => {
             >
               <img
                 src={img.src}
-                alt={`Galería EcoVida ${index + 1}`}
+                alt={`Galeria INVEST-FINCA ${index + 1}`}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                 <span className="text-white font-serif text-2xl italic">Ver detalle</span>
+                 <span className="text-white font-serif text-2xl italic">Veure detall</span>
               </div>
             </motion.div>
           ))}

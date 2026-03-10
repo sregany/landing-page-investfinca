@@ -15,7 +15,7 @@ const LocationSection = () => {
           >
             <div className="mb-16">
               <h2 className="font-serif text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
-                El Cor de <span className="text-primary italic">Tremp</span>
+                Ubicació Privilegiada al Cor de <span className="text-primary italic">Tremp</span>
               </h2>
               <p className="text-neutral-dark/70 text-lg max-w-2xl">
                 Situat al Carrer Tarragona 19, el nostre projecte s&apos;integra en la vida del poble, aportant luxe i sostenibilitat a una ubicació privilegiada.
@@ -31,7 +31,7 @@ const LocationSection = () => {
                   <p className="text-neutral-dark/60">Tremp, Lleida</p>
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="flex items-center gap-3">
                      <MapPin className="w-5 h-5 text-primary/60" />
                      <span className="text-sm font-medium">Centre Històric</span>

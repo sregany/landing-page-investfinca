@@ -23,14 +23,14 @@ const SustainabilitySection = () => {
             viewport={{ once: true }}
             className="font-serif text-4xl md:text-5xl font-bold mb-6"
           >
-            Líders en <span className="text-secondary italic">Bioconstrucció</span>
+            Pioners en l&apos; <span className="text-secondary italic">Arquitectura Regenerativa</span>
           </motion.h2>
           <p className="max-w-2xl mx-auto text-white/80 text-lg">
-            A INVEST-FINCA, la bioconstrucció no és una opció, és el nostre ADN. Utilitzem materials que retornen a la terra, garantint un aire pur i un entorn saludable per a la teva família.
+            A INVEST-FINCA, la bioconstrucció és el nostre compromís amb el futur. Integram materials orgànics que respiren, garantint una puresa ambiental i una salut inigualable per als teus.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {stats.map((stat, index) => (
             <motion.div
               key={index}

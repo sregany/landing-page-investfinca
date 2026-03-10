@@ -21,8 +21,8 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Inici", href: "#hero" },
-    { name: "Edifici", href: "#edificio" },
-    { name: "Pisos", href: "#pisos" },
+    { name: "L'Edifici", href: "#edificio" },
+    { name: "Habitatges", href: "#pisos" },
     { name: "Sostenibilitat", href: "#sostenibilidad" },
     { name: "Serveis", href: "#amenities" },
     { name: "Contacte", href: "#contacto" },
@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-6">
-            Reservar Visita
+            Sol·licitar Visita
           </Button>
         </div>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <Button className="bg-primary hover:bg-primary/90 text-white w-full">
-                Reservar Visita
+                Sol·licitar Visita
               </Button>
             </div>
           </motion.div>

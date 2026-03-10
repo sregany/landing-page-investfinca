@@ -65,10 +65,10 @@ export default function ApartmentsSection() {
           className="text-center mb-16"
         >
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
-            Distribució de <span className="text-primary italic">3 Plantes</span>
+            Tres Nivells d&apos; <span className="text-primary italic">Exclusivitat</span>
           </h2>
           <p className="max-w-2xl mx-auto text-neutral-dark/70 text-lg">
-            Cada nivell ha estat dissenyat per maximitzar la llum natural i el benestar, integrant materials biodegradables en una remodelació de luxe sense precedents a Tremp.
+            Cada planta ha estat concebuda com un refugi de llum i benestar. Una rehabilitació d&apos;elit que fusiona materials nobles amb el confort contemporani al cor de Tremp.
           </p>
         </motion.div>
 
@@ -77,7 +77,7 @@ export default function ApartmentsSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid md:grid-cols-3 gap-8 mb-16"
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16"
         >
           {apartments.map((apt, index) => (
             <motion.div key={index} variants={itemVariants}>

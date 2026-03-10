@@ -65,7 +65,7 @@ const ContactSection = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
               <h2 className="font-serif text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
-                Uneix-te a la <br /><span className="text-primary italic">Bioconstrucció</span>
+                Forma part d&apos;un <br /><span className="text-primary italic">Futur Sostenible</span>
               </h2>
               <p className="text-neutral-dark/70 text-lg mb-8">
                 A INVEST-FINCA estem projectant el futur de la llar. Deixa&apos;ns les teves dades i un especialista en habitatges biodegradables es posarà en contacte amb tu per mostrar-te les nostres promocions actives.
@@ -132,9 +132,9 @@ const ContactSection = () => {
                       name="presupuesto"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Pressupost estimat</FormLabel>
+                          <FormLabel>Pressupost estimat (opcional)</FormLabel>
                           <FormControl>
-                            <Input placeholder="Ej: 300k - 500k" {...field} className="rounded-xl" />
+                            <Input placeholder="Ex: 300k - 500k" {...field} className="rounded-xl" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -146,7 +146,7 @@ const ContactSection = () => {
                     name="mensaje"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Mensaje</FormLabel>
+                        <FormLabel>Missatge</FormLabel>
                         <FormControl>
                           <Textarea 
                             placeholder="Explica&apos;ns quina tipologia t&apos;interessa..." 
